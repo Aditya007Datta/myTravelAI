@@ -6,8 +6,8 @@ const Navbar = () => {
   const menuItems = (
     <React.Fragment>
       <li><Link to='/' className='hover:text-secondary font-bold hover:border-2 hover:border-grey-600 rounded'>Home</Link>{" "}</li>
-      <li><Link to='/' className='hover:text-secondary font-bold hover:border-2 hover:border-grey-600 rounded'>About Us</Link>{" "}</li>
-      <li><Link to='/' className='hover:text-secondary font-bold hover:border-2 hover:border-grey-600 rounded'>Our Project</Link>{" "}</li>
+      <li><Link to='/AboutUs' className='hover:text-secondary font-bold hover:border-2 hover:border-grey-600 rounded'>About Us</Link>{" "}</li>
+      <li><Link to='/Project' className='hover:text-secondary font-bold hover:border-2 hover:border-grey-600 rounded'>Our Project</Link>{" "}</li>
     </React.Fragment>
   )
 
