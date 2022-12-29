@@ -13,11 +13,17 @@ const AboutUs = () => {
 
                     </div>
                     <div className='w-[300px] lg: w-full flex flex-col justify-center items-center'>
-                        <h1 className="lg:text-5xl text-primary font-bold">
-                            About <a class="text-zinc-400/50">Us</a>
+                        <h1 className="lg:text-5xl text-primary font-bold font-['Berry_Days'] tracking-wide">
+                            About <a class="text-info">Us!!</a>
                         </h1>
 
-                        <p className="py-6 lg:text-lg text-sm text-center">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-6 lg:text-lg text-sm text-justify">Welcome to our team of developers!
+
+                            We are a group of passionate individuals who are just starting out on our journey in the world of artificial intelligence-machine learning and full stack development. Our team is made up of diverse individuals with a wide range of skills and experiences. We are constantly learning and growing, and we are excited to take on new challenges and projects in the world of tech.
+
+                            We believe in the power of collaboration and working together towards a common goal.
+
+                        </p>
                         {/* <button className="btn btn-primary">Get Started</button> */}
                     </div>
                 </div>

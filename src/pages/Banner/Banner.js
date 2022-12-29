@@ -16,22 +16,22 @@ const Banner = () => {
                     </div>
 
                     <div className='w-[300px] lg: w-full flex flex-col justify-center items-center'>
-                        <h1 className="lg:text-5xl text-primary font-bold font-['Berry_Days']">
+                        <h1 className="lg:text-5xl text-primary font-bold font-['Berry_Days'] tracking-widest">
                             <Typewriter
                                 options={{
-                                    strings: ['Pack Your Bags And Get Set Go!'],
+                                    strings: ['Pack Your Bags And <a class="text-info"><br/>Get Set Go!!!</a>'],
                                     autoStart: true,
-                                    loop: 1,
+                                    loop: true,
                                 }} />
                         </h1>
 
-                        <p className="py-6 lg:text-lg text-sm text-center font-dm-sans ">Provident cupiditate voluptatem et in.Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-6 lg:text-lg text-sm text-center ">Enter your travel preferences and let us find your next big vacay destination!</p>
 
-                        <input type="text" placeholder="Andaman.." className="input input-bordered input-base-100 w-full max-w-xs bg-neutral p-10" />
+                        <input type="text" placeholder="Andaman.." className="input input-bordered input-base-100 w-full max-w-xs shadow-xl bg-success p-10" />
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
